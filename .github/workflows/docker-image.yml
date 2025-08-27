@@ -19,10 +19,8 @@ jobs:
 
     permissions:
       contents: read
-      # Packages permission
       packages: write
-      # Attestation permission
-      id-token: write
+      attestations: write
 
     steps:
     - uses: actions/checkout@v4
